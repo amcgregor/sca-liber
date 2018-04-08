@@ -1,0 +1,12 @@
+max-line-length: 120
+ignore-paths:
+  - docs
+  - example
+python-targets:
+  - 2
+  - 3
+pylint:
+  disable:
+    - redefined-builtin
+pyroma:
+  run: true
